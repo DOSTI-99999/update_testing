@@ -2,868 +2,166 @@
   "HorizonLayout": [
     {
       "layout": "logo",
-      "menuIcon": {
-        "name": "news_solid",
-        "fontFamily": "CupertinoIcons"
-      },
-      "showNotification": true,
-      "name": "Destributes in a Broadway",
-      "showCart": false,
       "showMenu": true,
-      "image": "https://trello.com/1/cards/62097112be74e2504805993c/attachments/6233b7399527da241dd76f73/download/cover.png",
       "showSearch": true,
-      "showLogo": false,
-      "pos": 100
+      "showLogo": true
     },
-
-
-
-
     {
-      "marginLeft": 0,
-      "items": [
+      "isSafeArea":false,
+      "showSearch":true,
+      "usePrimaryColor":true,
+      "borderInput":false,
+      "title":"What can we help you find?",
+      "alignment":"centerLeft",
+      "fontWeight":0,
+      "radius":30,
+      "fontSize":15.0,
+      "textOpacity":0.8,
+      "marginLeft":18.0,
+      "marginRight":18.0,
+      "marginBottom":5.0,
+      "marginTop":5.0,
+      "paddingLeft":5.0,
+      "paddingRight":15.0,
+      "paddingTop":0.0,
+      "paddingBottom":0.0,
+      "height":45.0,
+      "rotate":[],
+      "layout":"header_search"
+    },
+    {
+      "layout":"category",
+      "type":"image",
+      "wrap":false,
+      "showShortDescription":true,
+      "paddingTop": 4.0,
+      "size":1.0,
+      "radius": 2.0,
+      "items":[
         {
-          "title": "eat and drinks",
-          "category": "22",
-          "keepDefaultTitle": false,
-          "showDescription": false,
-          "showText": true,
-          "image": "https://trello.com/1/cards/625da228f075ea36a028af4c/attachments/62647b889e5159172b24a148/download/0b5d3330-991a-4f2c-a384-00faf9222f64.jpg",
-          "originalColor": true
+          "category":"19",
+          "showText":true,
+          "name":"Apartments",
+          "image":"https://trello-attachments.s3.amazonaws.com/5d29325d2000ef2fad36345f/5f819c1647913f104387c46c/f91acac11d3f590f45bf56e1e6d570e7/travel10.jpg"
         },
         {
-          "category": "32",
-          "showDescription": false,
-          "showText": true,
-          "image": "https://trello.com/1/cards/625da228f075ea36a028af4c/attachments/62647b4553f3d371c67b140f/download/6227c3f6-3c21-4d72-a175-ac9073c5b3cf.jpg",
-          "title": "rentals",
-          "keepDefaultTitle": false,
-          "originalColor": true
+          "category":"19",
+          "showText":true,
+          "name":"Fitness",
+          "image":"https://trello-attachments.s3.amazonaws.com/5f819c1647913f104387c46c/1200x800/d75e43203335e45a506184f22f5148d6/travel13.jpg"
         },
         {
-          "title": "services",
-          "showText": true,
-          "image": "https://trello.com/1/cards/625da228f075ea36a028af4c/attachments/62647c15496898665143ddfe/download/3dbe6a89-d50b-46a2-8c0a-e01d5a89d11a.jpg",
-          "showDescription": false,
-          "keepDefaultTitle": false,
-          "category": "36",
-          "originalColor": true
+          "category":"19",
+          "showText":true,
+          "name":"Events",
+          "image":"https://trello-attachments.s3.amazonaws.com/5f819c1647913f104387c46c/1200x811/f7c40224ad67d091a3d3c1dfcd99dcd7/travel27.jpg"
         },
         {
-          "originalColor": true,
-          "showText": true,
-          "image": "https://trello.com/1/cards/625da228f075ea36a028af4c/attachments/62647bcd43fbb75d00450f4f/download/358344c0-fe7b-49fe-b397-934d03c24712.jpg",
-          "category": "40",
-          "keepDefaultTitle": false,
-          "title": "event and culture",
-          "showDescription": false
+          "category":"19",
+          "showText":true,
+          "name":"Eat & Drink",
+          "image":"https://trello-attachments.s3.amazonaws.com/5f819c1647913f104387c46c/1200x800/16db1a2dbbc2768b1379837ea4b227a4/travel30.jpg"
+        },
+        {
+          "category":"19",
+          "showText":true,
+          "name":"Services",
+          "image":"https://trello-attachments.s3.amazonaws.com/5f819c1647913f104387c46c/1200x800/94c2fd4e42c704c15560241da9c47b00/travel39.jpg"
+        },
+        {
+          "category":"19",
+          "showText":true,
+          "name":"Other",
+          "image":"https://trello-attachments.s3.amazonaws.com/5f819c1647913f104387c46c/1200x798/1e4028e9986d1333a756e7c90303dcce/travel53.jpg"
         }
       ],
-      "line": false,
-      "labelFontSize": 14,
-      "paddingX": 11,
-      "imageBorderColor": null,
-      "noBackground": false,
-      "layout": "category",
-      "spacing": 12,
-      "marginTop": 10,
-      "hideTitle": false,
-      "imageBorderWidth": 1.5,
-      "textAlignment": "topCenter",
-      "type": "image",
-      "wrap": false,
-      "showShortDescription": true,
-      "marginY": 0,
-      "imageBorderStyle": "dot",
-      "paddingY": 10,
-      "size": 1,
-      "imageSpacing": 10,
-      "radius": 80,
-      "itemSize": {
-        "height": 156.35658914728683,
-        "width": 284.4186046511628
-      },
-      "marginRight": 0,
-      "enableBorder": false,
-      "marginX": 0,
-      "marginBottom": 10,
-      "border": 0.4,
-      "imageBoxFit": "cover",
-      "pos": 300
+      "line":false,
+      "marginLeft":10.0,
+      "marginRight":10.0,
+      "marginTop":10.0,
+      "marginBottom":10.0,
+      "pos":300,
+      "paddingX":0.0,
+      "paddingY":6.0,
+      "marginX":2.0,
+      "marginY":2.0,
+      "hideTitle":false,
+      "noBackground":false,
+      "itemSize":{
+        "width":320.0,
+        "height":157.0}
     },
     {
-      "paddingTop": 0,
-      "textOpacity": 0.8,
-      "layout": "header_search",
-      "paddingLeft": 12,
-      "title": "Search",
-      "paddingBottom": 0,
-      "paddingRight": 15,
-      "marginBottom": 0,
-      "marginTop": 10,
-      "rotate": [],
-      "height": 45,
-      "radius": 9,
-      "borderInput": true,
-      "fontSize": 18,
-      "usePrimaryColor": true,
-      "marginLeft": 20,
-      "alignment": "centerLeft",
-      "marginRight": 20,
-      "fontWeight": 0,
-      "isSafeArea": false,
-      "showSearch": true,
-      "pos": 400
-    },
-    {
-      "backgroundWidthMode": true,
-      "showHeart": false,
-      "showStockStatus": true,
-      "layout": "threeColumn",
-      "imageRatio": 1.1,
-      "cardDesign": "card",
-      "name": "new listings",
-      "backgroundRadius": 10,
-      "showCartButton": false,
-      "enableRating": true,
-      "showCartButtonWithQuantity": false,
-      "isSnapping": false,
-      "showCartIcon": true,
-      "hideStore": false,
-      "hPadding": 0,
-      "hMargin": 0,
-      "imageBoxfit": "cover",
-      "backgroundHeight": 250,
-      "showQuantity": false,
-      "hideTitle": false,
-      "borderRadius": 0,
-      "hidePrice": false,
-      "cartIconRadius": 9,
-      "vMargin": 0,
-      "vPadding": 0,
-      "showCartIconColor": false,
-      "enableBottomAddToCart": false,
-      "rows": 1,
-      "columns": 0,
-      "pos": 500
-    },
-    {
-      "upHeight": 0,
-      "showBackground": false,
-      "fit": "fitWidth",
-      "radius": 20,
-      "autoPlay": false,
-      "showNumber": false,
-      "marginLeft": null,
-      "padding": 0,
-      "marginRight": null,
-      "marginTop": 0,
-      "isBlur": false,
-      "items": [
-        {
-          "image": "https://i.imgur.com/k4suJAc.jpeg",
-          "background": "https://i.imgur.com/vUHl6Wd.jpeg",
-          "category": "32",
-          "showSubcategory": false
-        },
-        {
-          "category": "32",
-          "image": "https://i.imgur.com/QwKBPnf.jpeg",
-          "showSubcategory": false
-        }
-      ],
-      "intervalTime": 3,
-      "marginBottom": 0,
-      "isSlider": true,
-      "layout": "bannerImage",
-      "design": "swiper",
-      "pos": 600
-    },
-    {
-      "enableRating": true,
-      "showCartButtonWithQuantity": false,
-      "enableBottomAddToCart": false,
-      "hMargin": 6,
-      "showCartIconColor": false,
-      "hidePrice": false,
-      "category": "32",
-      "name": "rentals",
-      "showCartIcon": true,
-      "showCartButton": false,
-      "showQuantity": false,
-      "imageRatio": 1.2,
-      "cartIconRadius": 9,
-      "backgroundWidthMode": true,
-      "vPadding": 0,
-      "hPadding": 0,
-      "hideStore": false,
-      "imageBoxfit": "cover",
-      "columns": 3,
-      "hideTitle": false,
-      "isSnapping": false,
-      "backgroundHeight": 250,
-      "borderRadius": 3,
-      "layout": "threeColumn",
-      "backgroundRadius": 10,
-      "showStockStatus": true,
-      "cardDesign": "card",
-      "rows": 1,
-      "vMargin": 0,
-      "showHeart": false,
-      "pos": 700
-    },
-    {
-      "showNumber": false,
-      "isSlider": true,
-      "marginRight": null,
-      "autoPlay": false,
-      "marginTop": 0,
-      "radius": 10,
-      "marginLeft": null,
-      "isBlur": false,
-      "title": {
-        "marginTop": 0,
-        "marginLeft": 0,
-        "paddingBottom": 0,
-        "textOpacity": 1,
-        "usePrimaryColor": true,
-        "paddingTop": 0,
-        "showSearch": false,
-        "paddingLeft": 5,
-        "rotate": [],
-        "marginRight": 0,
-        "fontSize": 20,
-        "marginBottom": 0,
-        "fontWeight": 400,
-        "alignment": "centerLeft",
-        "borderInput": false,
-        "title": "services",
-        "paddingRight": 15,
-        "height": 41,
-        "isSafeArea": false
-      },
-      "items": [
-        {
-          "category": "36",
-          "showSubcategory": false,
-          "image": "https://trello.com/1/cards/625da228f075ea36a028af4c/attachments/626340d9fd07767185071e62/download/3dbe6a89-d50b-46a2-8c0a-e01d5a89d11a.jpg"
-        },
-        {
-          "showSubcategory": false,
-          "image": "https://i.imgur.com/zze68dM.jpeg",
-          "category": "36"
-        }
-      ],
-      "design": "custom",
-      "layout": "bannerImage",
-      "upHeight": 0,
-      "marginBottom": 0,
-      "fit": "cover",
-      "height": 0.2,
-      "padding": 0,
-      "showBackground": false,
-      "intervalTime": 3,
-      "pos": 800
-    },
-    {
-      "hidePrice": false,
-      "backgroundWidthMode": true,
-      "vPadding": 0,
-      "showQuantity": false,
-      "enableRating": true,
-      "showCartIcon": true,
-      "hideTitle": false,
-      "imageRatio": 1.1,
-      "borderRadius": 0,
-      "showCartButtonWithQuantity": false,
-      "hideStore": false,
-      "isSnapping": false,
-      "category": "36",
-      "showCartIconColor": false,
-      "rows": 1,
-      "cardDesign": "card",
-      "backgroundHeight": 250,
-      "cartIconRadius": 9,
-      "columns": 0,
-      "imageBoxfit": "cover",
-      "layout": "threeColumn",
-      "showStockStatus": true,
-      "hMargin": 0,
-      "backgroundRadius": 10,
-      "showCartButton": false,
-      "vMargin": 0,
-      "enableBottomAddToCart": false,
-      "name": "services",
-      "showHeart": false,
-      "hPadding": 0,
-      "pos": 900
+      "name": "Coming Events",
+      "layout": "twoColumn"
     },
     {
       "layout": "bannerImage",
-      "design": "swiper",
-      "showNumber": false,
-      "items": [
-        {
-          "category": "22",
-          "image": "https://trello.com/1/cards/625da228f075ea36a028af4c/attachments/62634135f30d2b5b4e69f494/download/0b5d3330-991a-4f2c-a384-00faf9222f64.jpg",
-          "showSubcategory": false
-        },
-        {
-          "image": "https://trello.com/1/cards/62097112be74e2504805993c/attachments/6233af552965e52ea6015484/download/0a3b749c-96c8-40ea-897b-fd7eef12a560.jpg",
-          "category": "22",
-          "showSubcategory": false
-        }
-      ],
-      "height": 0.2,
-      "padding": 0,
-      "isBlur": false,
-      "upHeight": 0,
-      "marginRight": null,
-      "autoPlay": false,
       "isSlider": true,
-      "marginBottom": 0,
-      "radius": 10,
-      "showBackground": false,
-      "title": {
-        "textOpacity": 1,
-        "marginLeft": 0,
-        "borderInput": false,
-        "paddingBottom": 0,
-        "marginRight": 0,
-        "isSafeArea": false,
-        "fontSize": 20,
-        "paddingTop": 0,
-        "rotate": [],
-        "marginBottom": 0,
-        "paddingLeft": 5,
-        "alignment": "centerLeft",
-        "title": "eat and drinks",
-        "paddingRight": 15,
-        "showSearch": false,
-        "marginTop": 0,
-        "usePrimaryColor": true,
-        "fontWeight": 400,
-        "height": 41
-      },
-      "marginLeft": null,
-      "fit": "cover",
-      "intervalTime": 3,
-      "marginTop": 0,
-      "pos": 1000
-    },
-    {
-      "borderRadius": 0,
-      "vPadding": 0,
-      "hidePrice": false,
-      "showQuantity": false,
-      "vMargin": 0,
-      "enableRating": true,
-      "hMargin": 0,
-      "imageRatio": 1.1,
-      "isSnapping": false,
-      "cartIconRadius": 9,
-      "showCartIconColor": false,
-      "backgroundHeight": 250,
-      "name": "eat and drinks",
-      "cardDesign": "card",
-      "imageBoxfit": "cover",
-      "showCartIcon": true,
-      "backgroundWidthMode": true,
-      "showCartButton": false,
-      "category": "22",
-      "layout": "threeColumn",
-      "hideStore": false,
-      "backgroundRadius": 10,
-      "enableBottomAddToCart": false,
-      "hPadding": 0,
-      "rows": 1,
-      "columns": 0,
-      "hideTitle": false,
-      "showCartButtonWithQuantity": false,
-      "showHeart": false,
-      "showStockStatus": true,
-      "pos": 1100
-    },
-    {
-      "showNumber": false,
-      "title": {
-        "alignment": "centerLeft",
-        "paddingRight": 15,
-        "marginTop": 0,
-        "textOpacity": 1,
-        "fontSize": 20,
-        "isSafeArea": false,
-        "marginRight": 0,
-        "showSearch": false,
-        "marginBottom": 0,
-        "paddingBottom": 0,
-        "title": "event and culture",
-        "paddingLeft": 5,
-        "usePrimaryColor": true,
-        "borderInput": false,
-        "height": 41,
-        "paddingTop": 0,
-        "marginLeft": 0,
-        "rotate": [],
-        "fontWeight": 400
-      },
-      "design": "tinder",
-      "upHeight": 0,
-      "marginBottom": 0,
-      "marginTop": 0,
-      "showBackground": false,
-      "isSlider": true,
-      "intervalTime": 3,
-      "radius": 10,
-      "autoPlay": false,
-      "padding": 0,
-      "layout": "bannerImage",
-      "height": 0.2,
-      "items": [
-        {
-          "category": "40",
-          "showSubcategory": false,
-          "image": "https://trello.com/1/cards/625da228f075ea36a028af4c/attachments/626342ec5aea131dbc3e9c52/download/358344c0-fe7b-49fe-b397-934d03c24712.jpg"
-        },
-        {
-          "image": "https://i.imgur.com/bj8YwvK.jpeg",
-          "showSubcategory": false,
-          "category": "40"
-        }
-      ],
-      "marginLeft": null,
-      "marginRight": null,
-      "isBlur": false,
-      "fit": "cover",
-      "pos": 1200
-    },
-    {
-      "hMargin": 6,
-      "backgroundRadius": 10,
-      "hideStore": false,
-      "cardDesign": "card",
-      "columns": 3,
-      "rows": 1,
-      "hideTitle": false,
-      "showCartIcon": true,
-      "enableRating": true,
-      "hPadding": 0,
-      "showCartButton": false,
-      "borderRadius": 3,
-      "showCartButtonWithQuantity": false,
-      "showCartIconColor": false,
-      "name": "event and cultures",
-      "enableBottomAddToCart": false,
-      "vMargin": 0,
-      "backgroundWidthMode": true,
-      "showStockStatus": true,
-      "layout": "fourColumn",
-      "category": "40",
-      "showHeart": false,
-      "imageRatio": 1.2,
-      "imageBoxfit": "cover",
-      "showQuantity": false,
-      "vPadding": 0,
-      "cartIconRadius": 9,
-      "hidePrice": false,
-      "isSnapping": false,
-      "backgroundHeight": 250,
-      "pos": 1300
-    },
-    {
-      "fit": "fitHeight",
       "autoPlay": true,
-      "marginBottom": 0,
-      "height": 0.45,
-      "marginLeft": null,
-      "title": {
-        "isSafeArea": false,
-        "paddingTop": 0,
-        "height": 50,
-        "title": "",
-        "marginTop": 0,
-        "borderInput": false,
-        "paddingRight": 15,
-        "marginBottom": 0,
-        "rotate": [],
-        "fontSize": 25,
-        "usePrimaryColor": true,
-        "showSearch": false,
-        "paddingLeft": 5,
-        "paddingBottom": 0,
-        "marginRight": 0,
-        "fontWeight": 400,
-        "textOpacity": 1,
-        "marginLeft": 16,
-        "alignment": "centerLeft"
-      },
-      "design": "stack",
-      "upHeight": 0,
-      "marginTop": 10,
-      "intervalTime": 3,
-      "isSlider": true,
-      "isBlur": false,
-      "padding": 0,
-      "layout": "bannerImage",
-      "radius": 0,
+      "showNumber": false,
+      "design": "default",
+      "showBackGround": true,
+      "radius": 10.0,
+      "height": 0.5,
       "items": [
         {
-          "showSubcategory": false,
-          "category": "40",
-          "image": "https://i.imgur.com/8B5Fm4V.jpeg"
+          "category": 29,
+          "image": "https://trello-attachments.s3.amazonaws.com/5dd3a1ccf77d834e86dfd29a/1100x1292/7beb8a56f7db49bc0e147ec5040deb50/travel2.jpg",
+          "padding": 20.0
         },
         {
-          "image": "https://i.imgur.com/ZDLfR7S.jpeg",
-          "category": "32",
-          "showSubcategory": false
+          "category": 37,
+          "image": "https://trello-attachments.s3.amazonaws.com/5dd3a1ccf77d834e86dfd29a/1100x1292/19369c86e6873fc2493da1e397fa6e27/travel3.jpg",
+          "padding": 20.0
         },
         {
-          "category": "22",
-          "showSubcategory": false,
-          "image": "https://i.imgur.com/1kn1wvR.jpeg"
-        },
-        {
-          "category": "36",
-          "showSubcategory": false,
-          "image": "https://i.imgur.com/JYPorCx.jpeg"
+          "category": 34,
+          "image": "https://trello-attachments.s3.amazonaws.com/5dd3a1ccf77d834e86dfd29a/1160x1362/4a1f8758322c3f5dc862c5bf7a9c5af3/travel5.jpg",
+          "padding": 20.0
         }
-      ],
-      "showBackground": false,
-      "marginRight": null,
-      "showNumber": false,
-      "pos": 1400
+      ]
     }
   ],
+  "VerticalLayout": {
+    "name": "Explore more",
+    "layout": "menu"
+  },
   "Setting": {
-    "FontHeader": "Raleway",
-    "ProductDetail": "simpleType",
+    "MainColor": "#3FC1BE",
     "FontFamily": "Roboto",
-    "MainColor": "ffff5722",
-    "ShowChat": true,
-    "ProductListLayout": "list",
-    "StickyHeader": true,
-    "TabBarConfig": {
-      "paddingBottom": 0,
-      "radiusTopRight": 0,
-      "colorCart": null,
-      "color": null,
-      "marginTop": 0,
-      "showFloatingClip": false,
-      "radiusBottomLeft": 0,
-      "radiusTopLeft": 0,
-      "enable": true,
-      "indicatorStyle": "none",
-      "TabBarFloating": {
-        "height": 70.44671253505518,
-        "radius": null,
-        "location": "centerDocked",
-        "floatingType": "diamond",
-        "elevation": 9.899225224105551,
-        "position": 2,
-        "color": "ffff672d",
-        "width": 70.261694164508
-      },
-      "radiusBottomRight": 0,
-      "iconSize": 23.025228226675463,
-      "paddingTop": 0,
-      "isSafeArea": true,
-      "marginLeft": 0,
-      "paddingLeft": 0,
-      "paddingRight": 0,
-      "colorIcon": "ff7a7b7f",
-      "TabBarIndicator": {
-        "horizontalPadding": null,
-        "distanceFromCenter": null,
-        "radius": null,
-        "verticalPadding": null,
-        "height": null,
-        "tabPosition": "bottom",
-        "strokeWidth": null,
-        "bottomLeftRadius": null,
-        "color": null,
-        "paintingStyle": "fill",
-        "topLeftRadius": null,
-        "topRightRadius": null,
-        "bottomRightRadius": null
-      },
-      "marginRight": 0,
-      "marginBottom": 0,
-      "showFloating": false,
-      "colorActiveIcon": "ffff672d"
-    }
+    "ProductListLayout": "list"
   },
   "TabBar": [
     {
-      "icon": "assets/icons/tabs/icon-home.png",
-      "fontFamily": null,
-      "pos": 100,
       "layout": "home",
-      "label": null
+      "icon": "home",
+      "pos": 100,
+      "fontFamily": "CupertinoIcons",
+      "key": "p1q235ba14"
     },
     {
-      "categories": [
-        "22",
-        "40",
-        "32",
-        "36"
-      ],
-      "images": null,
-      "categoryLayout": "animation",
       "pos": 200,
       "layout": "category",
-      "icon": "assets/icons/tabs/icon-category.png",
-      "label": null,
-      "fontFamily": null
+      "icon": "rectangle_grid_1x2",
+      "fontFamily": "CupertinoIcons",
+      "categoryLayout": "card",
+      "key": "hwu0rkrizt"
     },
     {
-      "fontFamily": null,
-      "icon": "assets/icons/tabs/icon-search.png",
+      "key": "2reihs4qzc",
+      "icon": "search",
       "layout": "search",
-      "label": null,
-      "pos": 300
+      "fontFamily": "CupertinoIcons",
+      "pos": 300,
+      "size": 24
     },
     {
-      "subGeneralSetting": {
-        "web-sn6rvr1fh2": {
-          "webUrl": "https://dnbway.com/dashboard/",
-          "webViewMode": true,
-          "requiredLogin": true,
-          "icon": "space_dashboard_rounded",
-          "iconFontFamily": "MaterialIcons",
-          "title": "Dashboard"
-        },
-
-
-        "web-privacy-policy": {
-          "webUrl": "https://dnbway.com/privacy-policy/",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "icon": "policy_rounded",
-          "iconFontFamily": "MaterialIcons",
-          "title": "privacy-policy"
-        },
-
-        "web-terms": {
-          "webUrl": "https://dnbway.com/terms-and-conditions/",
-          "webViewMode": true,
-          "requiredLogin": false,
-          "icon": "privacy_tip_rounded",
-          "iconFontFamily": "MaterialIcons",
-          "title": "Terms and conditions"
-        },
-
-
-        "web-7hwi632nh8": {
-          "webUrl": "https://dnbway.com/my-bookings/",
-          "webViewMode": true,
-          "requiredLogin": true,
-          "icon": "news",
-          "iconFontFamily": "CupertinoIcons",
-          "title": "my-bookings"
-        },
-        "web-7hwi632nh7": {
-          "webUrl": "https://dnbway.com/my-bookings/",
-          "webViewMode": true,
-          "requiredLogin": true,
-          "icon": "news",
-          "iconFontFamily": "CupertinoIcons",
-          "title": "my-bookings"
-        },
-        "web-xq7cmsuwnd": {
-          "webUrl": "https://dnbway.com/messages/",
-          "webViewMode": true,
-          "requiredLogin": true,
-          "icon": "chat_bubble_2",
-          "iconFontFamily": "CupertinoIcons",
-          "title": "Messages"
-        },
-        "title-qn9tiwrouk": {
-          "title": "Corner",
-          "enableDivider": true,
-          "fontSize": null,
-          "titleColor": null,
-          "verticalPadding": {
-            "x": null,
-            "y": null
-          }
-        }
-      },
-      "pos": 400,
-      "icon": "assets/icons/tabs/icon-user.png",
       "layout": "profile",
-      "fontFamily": null,
-      "label": null,
-      "settings": [
-        "web-sn6rvr1fh2",
-        "web-xq7cmsuwnd",
-        "web-7hwi632nh7",
-        "wishlist",
-        "notifications",
-        "language",
-        "darkTheme",
-        "web-privacy-policy",
-        "web-terms"
-      ],
-      "background": "https://trello.com/1/cards/62097112be74e2504805993c/attachments/6236e0ad8a9bdc83601268cc/download/cover.png"
+      "fontFamily": "CupertinoIcons",
+      "pos": 500,
+      "key": "69jw5yx12d",
+      "icon": "person"
     }
-  ],
-  "AppBar": {
-    "items": [
-      {
-        "marginTop": 4,
-        "paddingBottom": 4,
-        "key": "gbs354efgo",
-        "type": "icon",
-        "alignment": "center",
-        "textOpacity": 0.5,
-        "radius": 18,
-        "iconSize": 24,
-        "paddingTop": 4,
-        "paddingRight": 4,
-        "marginBottom": 4,
-        "pos": 100,
-        "paddingLeft": 4,
-        "fontSize": 16,
-        "marginLeft": 16,
-        "fontWeight": "400",
-        "icon": "square_grid_2x2",
-        "fontFamily": "CupertinoIcons",
-        "backgroundColor": "0",
-        "action": "menu",
-        "size": 40,
-        "marginRight": 4
-      },
-      {
-        "marginLeft": 4,
-        "radius": 16,
-        "fontFamily": "CupertinoIcons",
-        "iconSize": 24,
-        "backgroundColor": "#00000000",
-        "paddingRight": 4,
-        "marginTop": 4,
-        "type": "text",
-        "marginBottom": 4,
-        "pos": 200,
-        "key": "cm03ohengg",
-        "paddingBottom": 4,
-        "marginRight": 4,
-        "size": 20,
-        "fontSize": 18,
-        "alignment": "center",
-        "icon": "location",
-        "paddingTop": 4,
-        "title": "TOY ZONE",
-        "fontWeight": "800",
-        "action": "none",
-        "textOpacity": 0.8,
-        "paddingLeft": 4
-      },
-      {
-        "size": 40,
-        "iconSize": 24,
-        "backgroundColor": "0",
-        "paddingLeft": 4,
-        "action": "cart",
-        "key": "swrxx0zicb",
-        "radius": 18,
-        "alignment": "center",
-        "type": "icon",
-        "marginRight": 16,
-        "fontWeight": "400",
-        "textOpacity": 0.5,
-        "paddingBottom": 4,
-        "icon": "shopping_cart",
-        "paddingRight": 4,
-        "pos": 400,
-        "marginTop": 4,
-        "marginLeft": 4,
-        "paddingTop": 4,
-        "fontSize": 16,
-        "marginBottom": 4,
-        "fontFamily": "CupertinoIcons"
-      }
-    ],
-    "showOnScreens": [],
-    "enable": true
-  },
-  "VerticalLayout": {
-    "name": "explore the categories",
-    "hideTitle": false,
-    "showQuantity": false,
-    "isVertical": true,
-    "vPadding": 0,
-    "hideStore": false,
-    "hidePrice": false,
-    "layout": "menu",
-    "showCartIconColor": false,
-    "hPadding": 0,
-    "showHeart": true,
-    "cartIconRadius": 9,
-    "showCartButton": false,
-    "imageRatio": 1,
-    "showStockStatus": true,
-    "showCartIcon": false,
-    "enableRating": true
-  },
-  "Drawer": {
-    "subDrawerItem": {
-      "web-e1lf2p48ns": {
-        "webUrl": "https://dnbway.com/add-listing/",
-        "iconFontFamily": "CupertinoIcons",
-        "icon": "news",
-        "title": "Add Listing",
-        "requiredLogin": true,
-        "webViewMode": true
-      }
-    },
-    "zoomConfig": {
-      "mainScreenScale": 0.3,
-      "enableShadow": false,
-      "slideMargin": 0,
-      "style": "style4",
-      "slideWidth": 0.65,
-      "borderRadius": 16,
-      "angle": 0,
-      "backgroundImage": null
-    },
-    "filter": 0,
-    "textColor": "ff0e2848",
-    "backgroundColor": "ffeceff1",
-    "key": "y8b2ivw1z0",
-    "logoConfig": {
-      "marginLeft": 0,
-      "useMaxWidth": true,
-      "marginRight": 0,
-      "marginTop": 60,
-      "boxFit": "fill",
-      "height": 130,
-      "backgroundColor": "ffefebe9",
-      "marginBottom": 10
-    },
-    "iconColor": "ff2196f3",
-    "items": [
-      {
-        "type": "home",
-        "show": false
-      },
-      {
-        "type": "blog",
-        "show": true
-      },
-      {
-        "type": "login",
-        "show": true
-      },
-      {
-        "show": false,
-        "type": "category"
-      },
-      {
-        "show": true,
-        "type": "categories"
-      }
-
-    ],
-    "logo": "https://trello.com/1/cards/62097112be74e2504805993c/attachments/6233b7399527da241dd76f73/download/cover.png"
-  }
+  ]
 }
