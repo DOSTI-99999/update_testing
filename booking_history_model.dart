@@ -13,7 +13,7 @@ class BookingHistoryModel extends ChangeNotifier {
   final RefreshController refreshController =
       RefreshController(initialRefresh: false);
   int page = 0;
-  int perPage = 10;
+  int perPage = 1;
 
   void _updateState(state) {
     this.state = state;
@@ -53,6 +53,7 @@ class BookingHistoryModel extends ChangeNotifier {
 
       if (list.isEmpty) {
         _updateState(BookingHistoryState.noMore);
+        perPage++;
         return;
       }
       bookings.addAll(list);
